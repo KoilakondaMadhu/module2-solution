@@ -1,0 +1,40 @@
+/* Your base styles for all screen sizes */
+.container {
+    /* Add your container styles here */
+    display: flex;
+    justify-content: space-between;
+    /* You may want to set a maximum width for the container */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    /* Add your section styles here */
+    border: 1px solid black;
+    background-color: lightgray;
+    margin: 10px;
+    width: 30%; /* Adjust the width as needed for the desktop view */
+    position: relative;
+}
+
+.section-title {
+    /* Add your section title styles here */
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #007bff; /* Example background color for the title */
+    color: white; /* Example text color for the title */
+}
+
+/* Media queries for different screen sizes */
+@media (min-width: 992px) {
+    /* Add your desktop styles here */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Add your tablet styles here */
+}
+
+@media (max-width: 767px) {
+    /* Add your mobile styles here */
+}
